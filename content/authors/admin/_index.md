@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Israel Gebre
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Israel
+last_name: Gebre
 
 # Status emoji
 status:
@@ -20,92 +20,99 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Data Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Ashoka University
+    url: https://www.ashoka.edu.in/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:israelzemedkun@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/israelzemedkun//
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/Israelzemedkun
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/israel-gebre-255a0b9a
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Data Science
+  - Machine Learning
+  - Remote Sensing and GIS
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Postgraduate Diploma in Advanced Studies and Research
+    institution: Ashoka University
+    date_start: 
+    date_end: 
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Received full scholarship. Completed advanced studies and research with a focus on computer science.
+  - area: B.Sc Computer Science
+    institution: Ashoka University
+    date_start: 
+    date_end: 
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Received full scholarship. Graduated with a focus on computer science.
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: MARKET RESEARCHER - GAMING INDUSTRY  
+    company_name: MOBALYTICS (GAMING INDUSTRY)
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 
+    date_end: 
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Responsibilities included identify trends, opportunities, and threats, analyzing data for actionable insights.
+  - position: Teaching Fellow in Environmental Studies
+    company_name: Ashoka University
+    company_url: ''
+    company_logo: ''
+    date_start: 
+    date_end: 
+    summary: |
+      Responsibilities included teaching and research in environmental studies.
+  - position: Remote Extern
+    company_name: National Geographic Society + The Nature Conservancy
+    company_url: ''
+    company_logo: ''
+    date_start: 
+    date_end: 
+    summary: |
+      Worked remotely on projects related to conservation and remote sensing.
+  - position: Remote Sensing Research Assistant
+    company_name: Ashoka University
+    company_url: ''
+    company_logo: ''
+    date_start: 
+    date_end: 
+    summary: |
+      Conducted research on remote sensing and geographic information systems (GIS).
+  - position: Teaching Assistant for Database Management Systems
+    company_name: Ashoka University
+    company_url: ''
+    company_logo: ''
+    date_start: 
+    date_end: 
+    summary: |
+      Assisted in teaching database management systems and supporting students with coursework.
+  - position: Data Science Research Intern
+    company_name: Mphasis
+    company_url: ''
+    company_logo: ''
+    date_start: 
+    date_end: 
+    summary: |
+      Interned as a data science researcher, working on various data analysis and machine learning projects.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -122,31 +129,95 @@ skills:
         icon: chart-bar
       - name: SQL
         description: ''
-        percent: 40
+        percent: 70
         icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
+      - name: C++
+        description: ''
+        percent: 70
+        icon: code-bracket
+      - name: PHP
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        icon: code-bracket
+      - name: HTML
         description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+        percent: 90
+        icon: code-bracket
+      - name: JavaScript
         description: ''
         percent: 80
-        icon: camera
+        icon: code-bracket
+      - name: CSS
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: MySQL
+        description: ''
+        percent: 70
+        icon: database
+  - name: Data Science Skills
+    items:
+      - name: Machine Learning
+        description: ''
+        percent: 85
+        icon: brain
+      - name: Data Analysis
+        description: ''
+        percent: 90
+        icon: chart-bar
+      - name: Data Exploration
+        description: ''
+        percent: 80
+        icon: magnifying-glass
+      - name: Data Wrangling
+        description: ''
+        percent: 85
+        icon: wrench
+      - name: Data Visualization
+        description: ''
+        percent: 75
+        icon: chart-line
+  - name: GIS & Remote Sensing
+    items:
+      - name: ArcGIS
+        description: ''
+        percent: 80
+        icon: map
+      - name: ESRI
+        description: ''
+        percent: 75
+        icon: globe
+      - name: QGIS
+        description: ''
+        percent: 80
+        icon: map
+      - name: EPANET
+        description: ''
+        percent: 70
+        icon: water
+      - name: Google Earth Pro
+        description: ''
+        percent: 85
+        icon: globe
+      - name: SNAP
+        description: ''
+        percent: 70
+        icon: map
+      - name: ENVI
+        description: ''
+        percent: 65
+        icon: map
+      - name: GEE
+        description: ''
+        percent: 75
+        icon: globe
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
+  - name: Amharic
+    percent: 100
+  - name: Hindi
     percent: 25
 
 # Awards.
@@ -183,4 +254,33 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Israel Gebre</title>
+  <style>
+    .custom-paragraph {
+      color: white;
+      text-shadow: 
+        0px 0.2px 0 black,  
+        0px 0.2px 0 black,
+        0px 0.2px 0 black,
+        0px 0.2px 0 black;
+    }
+  </style>
+</head>
+<body>
+  <p class="custom-paragraph">
+
+I am a data science professional with a strong background in computer science and a focus on applying advanced data analysis, remote sensing, and machine learning techniques to real-world problems. I hold a B.Sc in Computer Science and a Postgraduate Diploma in Advanced Studies and Research from Ashoka University, both obtained through full scholarships.
+
+My diverse experience includes roles as a market researcher in the gaming industry at Mobalytics, a teaching fellow in Environmental Studies at Ashoka University, and various research positions. I am skilled in programming, data analysis, and GIS tools, and I am actively seeking new opportunities in the geospatial data science domain to further advance my career and contribute to impactful projects.
+
+  </p>
+</body>
+</html>
+
+
+

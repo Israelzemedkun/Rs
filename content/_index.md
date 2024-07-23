@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title: "Israel"
 date: 2022-10-24
 type: landing
 
@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: stacked-peaks.JPG
           filters:
             brightness: 1.0
           size: cover
@@ -35,11 +35,10 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research focuses on utilizing data science, remote sensing, and machine learning to address environmental and policy challenges. As a Remote Sensing Research Assistant at Ashoka University, I developed machine learning models for vegetation and air pollution detection using satellite data, refining methodologies and enhancing model accuracy.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+
+        During my externship with the National Geographic Society and The Nature Conservancy, I conducted landscape and gap analysis for freshwater conservation projects. I am passionate about exploring the intersection of technology and environmental sustainability and am always open to collaboration and discussion on my work. Please feel free to reach out. 😃
     design:
       columns: '1'
   - block: collection
