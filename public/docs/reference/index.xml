@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reference | Academic CV</title>
+    <link>http://localhost:1313/docs/reference/</link>
+      <atom:link href="http://localhost:1313/docs/reference/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reference</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:1313/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <title>Reference</title>
+      <link>http://localhost:1313/docs/reference/</link>
+    </image>
+    
+    <item>
+      <title>Reference</title>
+      <link>http://localhost:1313/docs/reference/reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/reference/</guid>
+      <description>&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Google Earth Engine&lt;/strong&gt;: The primary platform used for all the exercises.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Earth Engine. Available online: &lt;a href=&#34;https://earthengine.google.com/&#34;&gt;https://earthengine.google.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Earth Engine Documentation: &lt;a href=&#34;https://developers.google.com/earth-engine&#34;&gt;https://developers.google.com/earth-engine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sentinel-1 Data&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;European Space Agency (ESA). Sentinel-1: ESA’s radar observatory mission for Europe’s Copernicus programme. Available online: &lt;a href=&#34;https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1&#34;&gt;https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Synthetic Aperture Radar (SAR) Data&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ulaby, F.T., Moore, R.K., &amp;amp; Fung, A.K. (1986). Microwave Remote Sensing: Active and Passive. Volume III: From Theory to Applications. Norwood, MA: Artech House.&lt;/li&gt;
+&lt;li&gt;Freeman, A., &amp;amp; Durden, S.L. (1998). A Three-Component Scattering Model for Polarimetric SAR Data. &lt;em&gt;IEEE Transactions on Geoscience and Remote Sensing&lt;/em&gt;, 36(3), 963-973.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Landsat Data&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NASA/USGS. Landsat Program. Available online: &lt;a href=&#34;https://landsat.gsfc.nasa.gov/&#34;&gt;https://landsat.gsfc.nasa.gov/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Landsat 8 Overview: US Geological Survey. Available online: &lt;a href=&#34;https://www.usgs.gov/landsat-missions/landsat-8&#34;&gt;https://www.usgs.gov/landsat-missions/landsat-8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Supervised Classification&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lillesand, T.M., Kiefer, R.W., &amp;amp; Chipman, J.W. (2015). &lt;em&gt;Remote Sensing and Image Interpretation&lt;/em&gt; (7th Edition). Hoboken, NJ: Wiley.&lt;/li&gt;
+&lt;li&gt;Foody, G.M. (2002). Status of land cover classification accuracy assessment. &lt;em&gt;Remote Sensing of Environment&lt;/em&gt;, 80(1), 185-201.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Image Processing Techniques&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jensen, J.R. (2005). &lt;em&gt;Introductory Digital Image Processing: A Remote Sensing Perspective&lt;/em&gt; (3rd Edition). Upper Saddle River, NJ: Prentice Hall.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;SAR and Remote Sensing Applications&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Schaber, G.G., Elachi, C., &amp;amp; Campbell, B.A. (2000). Remote Sensing with Imaging Radar. &lt;em&gt;The Manual of Remote Sensing&lt;/em&gt;, Vol. 2. Bethesda, MD: American Society for Photogrammetry and Remote Sensing (ASPRS).&lt;/li&gt;
+&lt;li&gt;Moreira, A., Prats-Iraola, P., Younis, M., Krieger, G., Hajnsek, I., &amp;amp; Papathanassiou, K.P. (2013). A tutorial on synthetic aperture radar. &lt;em&gt;IEEE Geoscience and Remote Sensing Magazine&lt;/em&gt;, 1(1), 6-43.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

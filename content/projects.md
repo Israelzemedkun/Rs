@@ -5,7 +5,7 @@ type: landing
 
 design:
   # Section spacing
-  spacing: '5rem'
+  spacing: '3rem'
 
 # Page sections
 sections:
@@ -18,6 +18,6 @@ sections:
           - project
     design:
       view: article-grid
-      fill_image: false
+      fill_image: true
       columns: 3
 ---

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DBMS | Academic CV</title>
+    <link>http://localhost:1313/docs/dbms/</link>
+      <atom:link href="http://localhost:1313/docs/dbms/index.xml" rel="self" type="application/rss+xml" />
+    <description>DBMS</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:1313/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <title>DBMS</title>
+      <link>http://localhost:1313/docs/dbms/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to Database Management Systems</title>
+      <link>http://localhost:1313/docs/dbms/introduction-to-database-management-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/dbms/introduction-to-database-management-systems/</guid>
+      <description>&lt;h3 id=&#34;course-introduction-databases-and-dbms&#34;&gt;&lt;strong&gt;Course Introduction: Databases and DBMS&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Welcome to the course on Databases and Database Management Systems (DBMS). In this introductory module, we&amp;rsquo;ll explore the foundational concepts that are crucial for understanding how databases work and why they are essential in today’s data-driven world.&lt;/p&gt;
+&lt;h4 id=&#34;what-is-a-database&#34;&gt;&lt;strong&gt;What is a Database?&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;At its core, a database is a collection of organized data that is stored and accessed electronically. Databases are used to store a variety of information, from simple lists like contact details to complex systems like those that manage financial transactions.&lt;/p&gt;
+&lt;h4 id=&#34;understanding-data-and-mini-worlds&#34;&gt;&lt;strong&gt;Understanding Data and Mini-Worlds&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Data in a database represents real-world scenarios, often referred to as &amp;ldquo;mini-worlds.&amp;rdquo; For example, a university database might store information about students, courses, and grades. This data is a simplified version of the real world but is designed to capture the essential aspects needed for decision-making and analysis.&lt;/p&gt;
+&lt;h4 id=&#34;what-is-a-dbms&#34;&gt;&lt;strong&gt;What is a DBMS?&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;A Database Management System (DBMS) is the software that interacts with end-users, applications, and the database itself to capture and analyze data. The DBMS manages data, the database engine, and the database schema, allowing for data to be stored, modified, and extracted efficiently.&lt;/p&gt;
+&lt;h4 id=&#34;components-and-architecture-of-a-dbms&#34;&gt;&lt;strong&gt;Components and Architecture of a DBMS&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The architecture of a DBMS is designed to manage large amounts of data and multiple users efficiently. It consists of several components, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Database Engine&lt;/strong&gt;: The core service for storing, processing, and securing data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database Schema&lt;/strong&gt;: The structure that defines how data is organized and how the relationships between data are managed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Query Processor&lt;/strong&gt;: The component that interprets and executes database queries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;types-of-database-systems&#34;&gt;&lt;strong&gt;Types of Database Systems&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;There are various types of database systems, each suited to different needs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Relational Databases&lt;/strong&gt;: Organize data into tables with rows and columns (e.g., SQL databases).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NoSQL Databases&lt;/strong&gt;: Designed for specific data models and have flexible schemas (e.g., MongoDB).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;In-Memory Databases&lt;/strong&gt;: Store data in the main memory to allow for faster processing (e.g., Redis).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By the end of this module, you’ll have a solid understanding of what databases and DBMS are, how they work, and why they are foundational to modern computing. Let’s get started!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Modeling and ER Model</title>
+      <link>http://localhost:1313/docs/dbms/data-modeling-and-er-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/dbms/data-modeling-and-er-model/</guid>
+      <description>&lt;p&gt;Entity-Relationship (ER) Model:
+Entities, Attributes, and Relationships.
+ER Diagrams: Symbols and Conventions.
+Conceptual Database Design:
+Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Relational Databases</title>
+      <link>http://localhost:1313/docs/dbms/relational-databases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/dbms/relational-databases/</guid>
+      <description>&lt;h3 id=&#34;relational-model&#34;&gt;Relational Model:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Concepts of Tables, Tuples, and Schemas.&lt;/li&gt;
+&lt;li&gt;Integrity Constraints in the Relational Model.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;relational-algebra&#34;&gt;Relational Algebra:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Basic Operations: Selection, Projection, Union, etc.&lt;/li&gt;
+&lt;li&gt;Queries and Expressions in Relational Algebra【6†source】.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SQL: Structured Query Language</title>
+      <link>http://localhost:1313/docs/dbms/structured-query-language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/dbms/structured-query-language/</guid>
+      <description>&lt;h3 id=&#34;introduction-to-sql&#34;&gt;Introduction to SQL:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Basic Queries: SELECT, INSERT, UPDATE, DELETE.&lt;/li&gt;
+&lt;li&gt;SQL Joins and Subqueries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;advanced-sql&#34;&gt;Advanced SQL:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Functions, Views, and Indexes.&lt;/li&gt;
+&lt;li&gt;Transaction Control in SQL.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

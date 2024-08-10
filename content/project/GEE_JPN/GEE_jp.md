@@ -1,5 +1,5 @@
 ---
-title: GEE JP
+title: The impact of COVID-19 lockdown on air quality
 date: 2023-10-26
 tags:  
     - GEE
@@ -168,12 +168,14 @@ Finally, the Export.image.toDrive function is used to export the image for the c
 
 Spatial distribution of AOD during the PLD and DLD time period in 2017–2020. Thespatial distribution shows that there is a drastic decrease of aerosol loading during DLD compared to PLD period of 2020. This decrease is clearly visible over the north regions, whereas AOD did not substantially decrease over the central–eastern region. Overall aerosol loading shows a decrease compared to the same time period of DLD of 2017–2019. In spite of this, the overallAOD values from 25 March 2020 onwards till May are at its lowest corresponding to the three years AOD average.
 
-<img src="Avg.png"
+![Alt text](Avg.png)
+
+<img src="AVg.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 The lockdown period allowed for the collection of baseline data on air qualityduring periods of minimal human activity. Combining satellite data with ground data gives us a regional and specific understanding of air quality. If there is a decrease in AOD (aerosol optical depth) decreases, it suggests that air quality may improve if actions are implemented to minimize the use of fossil fuels. Shutting down the economy to improve air quality is not a viable answer, but smaller-scale actions might be conducted on a regular basis.
 
-![Drag Racing](AOD.png)
+
 ![Alt text](AOD.png)
 
 

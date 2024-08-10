@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: "3rem"
 
 sections:
   - block: resume-biography-3
@@ -35,16 +35,16 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research focuses on utilizing data science, remote sensing, and machine learning to address environmental and policy challenges. As a Remote Sensing Research Assistant at Ashoka University, I developed machine learning models for vegetation and air pollution detection using satellite data, refining methodologies and enhancing model accuracy.
+              My research centers on leveraging data science, remote sensing, and machine learning to tackle environmental and policy challenges. As a Remote Sensing Research Assistant at Ashoka University, I developed machine learning models for vegetation and air pollution detection using satellite data, refining methodologies to enhance model accuracy.
 
-
-        During my externship with the National Geographic Society and The Nature Conservancy, I conducted landscape and gap analysis for freshwater conservation projects. I am passionate about exploring the intersection of technology and environmental sustainability and am always open to collaboration and discussion on my work. Please feel free to reach out. 😃
+              During my externship with the National Geographic Society and The Nature Conservancy, I conducted landscape and gap analyses for freshwater conservation projects. I am passionate about exploring the intersection of technology and environmental sustainability and  I’m always open to new collaborations—so don’t be afraid to drop me a line. Let’s see what we can uncover together! 😃
+      
     design:
       columns: '1'
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Current projects
       filters:
         folders:
           - publication
@@ -54,7 +54,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
+      title: Highlight 
       text: ""
       filters:
         folders:
@@ -62,26 +62,26 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
+  - #block: collection
+    #id: talks
+    #content:
+      #title: Recent & Upcoming Talks
+      #filters:
+        #folders:
+        #  - event
     design:
       view: article-grid
       columns: 1
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: Resurces to Creat a Blog
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
       page_type: post
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      count: 2
       # Filter on criteria
       filters:
         author: ""
@@ -108,9 +108,9 @@ sections:
         - Data Science
         - Machine Learning
         - Remote Sensing and GIS
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+      #button:
+        #text: Get Started
+        #url: https://hugoblox.com/templates/
     design:
       card:
         # Card background color (CSS class)

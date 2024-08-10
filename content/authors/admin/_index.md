@@ -33,18 +33,13 @@ profiles:
   - icon: at-symbol
     url: 'mailto:israelzemedkun@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
     url: https://www.instagram.com/israelzemedkun//
   - icon: brands/github
     url: https://github.com/Israelzemedkun
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/israel-gebre-255a0b9a
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+
 
 interests:
   - Data Science
@@ -173,10 +168,18 @@ skills:
         description: ''
         percent: 85
         icon: wrench
-      - name: Data Visualization
+      - name: Data Visualisation
         description: ''
         percent: 75
         icon: chart-line
+      - name: Geospatial Analysis
+        description: ''
+        percent: 85
+        icon: map
+      - name: Time Series Analysis
+        description: ''
+        percent: 75
+        icon: clock
   - name: GIS & Remote Sensing
     items:
       - name: ArcGIS
@@ -205,11 +208,11 @@ skills:
         icon: map
       - name: ENVI
         description: ''
-        percent: 65
+        percent: 80
         icon: map
       - name: GEE
         description: ''
-        percent: 75
+        percent: 90
         icon: globe
 
 languages:
@@ -218,6 +221,8 @@ languages:
   - name: Amharic
     percent: 100
   - name: Hindi
+    percent: 30
+  - name: Arabic
     percent: 25
 
 # Awards.
@@ -250,6 +255,39 @@ awards:
     icon: datacamp
     summary: |
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - title: 'BEYOND THE VISIBLE - Hyperspectral Remote Sensing'
+    url: "https://eo-college.org/"
+    certificate_url: /certificate/Hyper-EDU.pdf
+    date: '2024-01-08'
+    awarder: Hyper EDU an Eo-college
+    icon: 
+    summary: 
+      • Introduction to Hyperspectral Remote Sensing.
+      • EnMAP Data Access and Image Preprocessing Techniques.
+      • Imaging Spectroscopy for Agricultural Applications
+  - title: 'CLOUD APPLICATION DEVELOPMENT'
+    url: "#"
+    certificate_url: /certificate/Hyper-EDU.pdf
+    date: '2022-05-30'
+    awarder: IBM in collaboration with edX
+    icon: 
+    summary: "I participated in a specialized course at Hyper EDU, an EO-College, in January 2024. The course provided an introduction to hyperspectral remote sensing, with a focus on EnMAP data access and image preprocessing techniques. I also gained practical insights into the application of imaging spectroscopy for agricultural purposes."
+
+  - title: 'CERTIFICATE OF THE OXFORD SCHOOL OF CLIMATE CHANGE'
+    url: "#"
+    certificate_url: /certificate/CERTIFICATE-OF-OSCC.pdf
+    date: '2022-05-30'
+    awarder: Oxford Climate Society
+    icon: 
+    summary: "I completed a focused program on climate mitigation and adaptation frameworks. Through this program, I studied both local and global approaches to climate action, with in-depth exploration of critical areas such as energy, transport, and environmental law. The program aimed to equip me with the knowledge and skills needed to develop and implement coherent climate action strategies across various sectors."
+  
+  - title: 'Data Analysis Fundamentals'
+    url: "https://www.udacity.com/enrollment/nd002-gc-251"
+    certificate_url: "/certificate/Data-analysis-fundamental.pdf"
+    date: '2024-08-01'
+    awarder: Data Analysis Fundamentals
+    icon: 
+    summary: I completed a comprehensive program in business and data analysis. By the end, I had mastered the foundational concepts of descriptive statistics, developed proficiency in managing and analyzing data using advanced spreadsheet functions, understood the critical business metrics used to evaluate performance, and effectively applied these techniques to real-world business scenarios. 
 ---
 
 ## About Me
@@ -274,9 +312,11 @@ awards:
 <body>
   <p class="custom-paragraph">
 
-I am a data science professional with a strong background in computer science and a focus on applying advanced data analysis, remote sensing, and machine learning techniques to real-world problems. I hold a B.Sc in Computer Science and a Postgraduate Diploma in Advanced Studies and Research from Ashoka University, both obtained through full scholarships.
+<p style="text-align: justify;">
+I am a data science professional with a solid foundation in computer science, specializing in the application of advanced data analysis, remote sensing, and machine learning techniques to solve real-world challenges. I hold a B.Sc. in Computer Science and a Postgraduate Diploma in Advanced Studies and Research from Ashoka University, both achieved through full scholarships.
 
-My diverse experience includes roles as a market researcher in the gaming industry at Mobalytics, a teaching fellow in Environmental Studies at Ashoka University, and various research positions. I am skilled in programming, data analysis, and GIS tools, and I am actively seeking new opportunities in the geospatial data science domain to further advance my career and contribute to impactful projects.
+<p style="text-align: justify;">
+My professional experience spans diverse roles, including market research in the gaming industry at Mobalytics, a teaching fellowship in Environmental Studies at Ashoka University, and various research positions. I am proficient in programming, data analysis, and GIS tools, with a particular interest in geospatial data science. I am currently seeking opportunities to further advance my career and contribute to impactful projects in this field.
 
   </p>
 </body>
