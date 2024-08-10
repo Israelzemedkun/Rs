@@ -6,7 +6,7 @@
 # Website name
 title: Academic CV
 # Website URL
-baseURL: 'https://israelzemedkun.com/'
+baseURL: "https://Israelzemedkun.github.io/Rs.git/"
 
 
 
@@ -33,13 +33,10 @@ cascade:
     show_related: true
     share: true
     # Just use Breadcrumb for navigation on blog post pages?
-    show_breadcrumb: true
+    show_breadcrumb: false
     header:
       navbar:
         enable: true
-
-
-
 
 cascade:
   # Docs folder options

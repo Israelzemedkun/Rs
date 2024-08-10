@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction to Remote Sensing of the Environment | Academic CV</title>
-    <link>http://localhost:1313/docs/guide/</link>
-      <atom:link href="http://localhost:1313/docs/guide/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/Rs.git/docs/guide/</link>
+      <atom:link href="http://localhost:1313/Rs.git/docs/guide/index.xml" rel="self" type="application/rss+xml" />
     <description>Introduction to Remote Sensing of the Environment</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/Rs.git/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
       <title>Introduction to Remote Sensing of the Environment</title>
-      <link>http://localhost:1313/docs/guide/</link>
+      <link>http://localhost:1313/Rs.git/docs/guide/</link>
     </image>
     
     <item>
       <title>Introduction to Remote Sensing</title>
-      <link>http://localhost:1313/docs/guide/getting-started/</link>
+      <link>http://localhost:1313/Rs.git/docs/guide/getting-started/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/guide/getting-started/</guid>
+      <guid>http://localhost:1313/Rs.git/docs/guide/getting-started/</guid>
       <description>&lt;h3 id=&#34;introduction-to-remote-sensing-of-the-environment&#34;&gt;Introduction to Remote Sensing of the Environment&lt;/h3&gt;
-&lt;img src=&#34;http://localhost:1313/skysat.webp&#34; alt=&#34;AOD average&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/Rs.git/skysat.webp&#34; alt=&#34;AOD average&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;h2 id=&#34;getting-started-with-google-earth-engine&#34;&gt;Getting Started with Google Earth Engine&lt;/h2&gt;
 &lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
 &lt;p&gt;Completion of this lab exercise requires the use of the Google Chrome browser and a Google Earth Engine account. If you have not yet signed up, please do so now in a new tab: &lt;a href=&#34;https://earthengine.google.com/signup/&#34;&gt;Earth Engine account registration&lt;/a&gt;. Once registered, you can access the Earth Engine environment here: &lt;a href=&#34;https://code.earthengine.google.com&#34;&gt;https://code.earthengine.google.com&lt;/a&gt;&lt;/p&gt;
@@ -26,7 +26,7 @@
 &lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p&gt;The objective of this lab is to introduce you to the Google Earth Engine processing environment. By the end of this exercise, you will be able to search, find, and visualize a broad range of remotely sensed datasets. We will start with single-band imagery - elevation data from the SRTM mission.&lt;/p&gt;
 &lt;h2 id=&#34;1-the-earth-engine-code-editor&#34;&gt;1. The Earth Engine Code Editor&lt;/h2&gt;
-&lt;img src=&#34;http://localhost:1313/image-1.png&#34; alt=&#34;Google Earth Engine environment&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/Rs.git/image-1.png&#34; alt=&#34;Google Earth Engine environment&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 1.&lt;/strong&gt; The Google Earth Engine environment&lt;/p&gt;
 &lt;h3 id=&#34;editor-panel&#34;&gt;Editor Panel&lt;/h3&gt;
 &lt;ul&gt;
@@ -65,34 +65,34 @@
 &lt;ul&gt;
 &lt;li&gt;Navigate to Darwin and zoom in using the mouse wheel.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://localhost:1313/image-2.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/Rs.git/image-2.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;ul&gt;
 &lt;li&gt;Clear the script workspace by selecting &amp;ldquo;Clear script&amp;rdquo; from the Reset button dropdown menu.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://localhost:1313/image-3.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/Rs.git/image-3.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 3.&lt;/strong&gt; Clear script&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Search for “elevation” and click on the SRTM Digital Elevation Data 30m result to show the dataset description.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://localhost:1313/image-4.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/Rs.git/image-4.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 4.&lt;/strong&gt; Search for elevation data&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;View the information on the dataset, and then click on Import, which moves the variable to the Imports section at the top of your script.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://localhost:1313/image-5.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/Rs.git/image-5.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 5.&lt;/strong&gt; View elevation datasource and import&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Rename the default variable name &amp;ldquo;image&amp;rdquo; to &amp;ldquo;srtm&amp;rdquo;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://localhost:1313/image-6.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/Rs.git/image-6.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 6.&lt;/strong&gt; Rename image&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Add the image object to the console by copying the script below into the code editor, and click &amp;ldquo;run&amp;rdquo;:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-7.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-7.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 7.&lt;/strong&gt; Print SRTM&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/image-8.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/Rs.git/image-8.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Browse through the information that was printed to the console. Open the “bands” section to show the one band named “elevation”. Note that all this same information is automatically available for all variables in the Imports section.&lt;/p&gt;
@@ -104,20 +104,20 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;adjusting-visualization-parameters&#34;&gt;Adjusting Visualization Parameters&lt;/h3&gt;
 &lt;p&gt;The displayed map will look pretty flat grey because the default visualization parameters map the full 16-bit range of the data onto the black–white range, but the elevation range is much smaller than that in any particular location. We’ll fix it in a moment.&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/image-9.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/Rs.git/image-9.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 8.&lt;/strong&gt; Map SRTM&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Select the Inspector tab. Then click on a few points on the map to get a feel for the elevation range in this area.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://localhost:1313/image-10.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/Rs.git/image-10.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 9.&lt;/strong&gt; Inspect SRTM&lt;/p&gt;
 &lt;p&gt;Now you can set some more appropriate visualization parameters by adjusting the code as follows (units are in meters above sea level):&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-11.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-11.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 10.&lt;/strong&gt; Visualize SRTM&lt;/p&gt;
 &lt;p&gt;You will now be able to see variation in elevation range with low values in black and highest points in white. Layers added to the map will have default names like &amp;ldquo;Layer 1&amp;rdquo;, &amp;ldquo;Layer 2&amp;rdquo;, etc. To improve readability, we can give each layer a human-readable name, by adding a title with the syntax in the following code. Don&amp;rsquo;t forget to click run.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;},&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Elevation above sea level&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-12.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-12.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 11.&lt;/strong&gt; Rename title&lt;/p&gt;
 &lt;h3 id=&#34;commenting-and-saving-your-scripts&#34;&gt;Commenting and Saving Your Scripts&lt;/h3&gt;
 &lt;p&gt;Now, the last step for today is to save your code. However, before doing that, it is good practice to add some comment lines to your code reminding you of what you did and why. We add these with two forward slashes &lt;code&gt;//&lt;/code&gt;:&lt;/p&gt;
@@ -132,25 +132,25 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Add the data again, with value ranges, and a useful title for the Layer tab
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;},&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Elevation above sea level&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-13.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-13.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 12.&lt;/strong&gt; Comment script&lt;/p&gt;
 &lt;p&gt;The next step is then to save your script by clicking &amp;ldquo;Save&amp;rdquo;. It will be saved in your private repository and will be accessible the next time you log in to Earth Engine.&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/image-14.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/Rs.git/image-14.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 13.&lt;/strong&gt; Save script&lt;/p&gt;
 &lt;p&gt;If you would like to experiment with different color combinations, you can play with color palettes as per the example below:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;palette&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;blue&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;yellow&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;red&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]},&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Elevation above sea level&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-15.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-15.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 14.&lt;/strong&gt; Color scale elevation&lt;/p&gt;
 &lt;h3 id=&#34;hillshading-and-slope&#34;&gt;Hillshading and Slope&lt;/h3&gt;
 &lt;p&gt;For better visualization, we can create a hillshade view of the elevation data. Remember you can use the Layer transparency options to create draped images for colorized hillshades.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;hillshade&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ee&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Terrain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;hillshade&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;hillshade&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;150&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;},&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Hillshade&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-16.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-16.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 15.&lt;/strong&gt; Hillshade view&lt;/p&gt;
 &lt;p&gt;Slope works in a similar way:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;slope&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ee&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Terrain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;slope&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;slope&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;},&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Slope&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-17.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-17.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 16.&lt;/strong&gt; Slope map&lt;/p&gt;
 &lt;p&gt;Thank you.&lt;/p&gt;
 </description>
@@ -158,9 +158,9 @@
     
     <item>
       <title>Image Visualisations</title>
-      <link>http://localhost:1313/docs/guide/image-visualisaton/</link>
+      <link>http://localhost:1313/Rs.git/docs/guide/image-visualisaton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/guide/image-visualisaton/</guid>
+      <guid>http://localhost:1313/Rs.git/docs/guide/image-visualisaton/</guid>
       <description>&lt;h2 id=&#34;understanding-band-combinations&#34;&gt;Understanding Band Combinations&lt;/h2&gt;
 &lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -298,9 +298,9 @@ So far, we have only explored two visualization options (true-color and false-co
     
     <item>
       <title>Spectra to Indices, and Finding the Right Image</title>
-      <link>http://localhost:1313/docs/guide/project-structure/</link>
+      <link>http://localhost:1313/Rs.git/docs/guide/project-structure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/guide/project-structure/</guid>
+      <guid>http://localhost:1313/Rs.git/docs/guide/project-structure/</guid>
       <description>&lt;p&gt;\image\Spectra to Indices&lt;/p&gt;
 &lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p&gt;The objective of this lab is to gain an understanding of a range of spectral indices and develop the skills for calculating any index you require. Before getting to that, we will build upon last week&amp;rsquo;s lab and learn how to find an image for any geographic location of interest.&lt;/p&gt;
@@ -394,9 +394,9 @@ So far, we have only explored two visualization options (true-color and false-co
     
     <item>
       <title>Image Classification</title>
-      <link>http://localhost:1313/docs/guide/configuration/</link>
+      <link>http://localhost:1313/Rs.git/docs/guide/configuration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/guide/configuration/</guid>
+      <guid>http://localhost:1313/Rs.git/docs/guide/configuration/</guid>
       <description>&lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p&gt;The objective of this lab is to gain an understanding of the image classification process and explore ways of turning remotely sensed imagery into landcover maps.&lt;/p&gt;
 &lt;h3 id=&#34;loading-up-the-image&#34;&gt;Loading up the Image&lt;/h3&gt;
@@ -473,9 +473,9 @@ So far, we have only explored two visualization options (true-color and false-co
     
     <item>
       <title>Accuracy Assessment</title>
-      <link>http://localhost:1313/docs/guide/classification/</link>
+      <link>http://localhost:1313/Rs.git/docs/guide/classification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/guide/classification/</guid>
+      <guid>http://localhost:1313/Rs.git/docs/guide/classification/</guid>
       <description>&lt;h2 id=&#34;classification-validation&#34;&gt;Classification Validation&lt;/h2&gt;
 &lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p&gt;The objective of this lab is to learn how to evaluate image classification results and conduct an accuracy assessment using independent validation data.&lt;/p&gt;
@@ -553,9 +553,9 @@ So far, we have only explored two visualization options (true-color and false-co
     
     <item>
       <title>SAR Data in Google Earth Engine</title>
-      <link>http://localhost:1313/docs/guide/sar-in-gee/</link>
+      <link>http://localhost:1313/Rs.git/docs/guide/sar-in-gee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/guide/sar-in-gee/</guid>
+      <guid>http://localhost:1313/Rs.git/docs/guide/sar-in-gee/</guid>
       <description>&lt;h1 id=&#34;working-with-sar-data-in-google-earth-engine&#34;&gt;Working with SAR Data in Google Earth Engine&lt;/h1&gt;
 &lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p&gt;The objective of this lab is to deepen your understanding of Synthetic Aperture Radar (SAR) data and learn how to visualize different composites in Google Earth Engine.&lt;/p&gt;
@@ -666,9 +666,9 @@ So far, we have only explored two visualization options (true-color and false-co
     
     <item>
       <title>Plotting Spectral Response Curves</title>
-      <link>http://localhost:1313/docs/guide/plotting-spectral-response-curves/</link>
+      <link>http://localhost:1313/Rs.git/docs/guide/plotting-spectral-response-curves/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/guide/plotting-spectral-response-curves/</guid>
+      <guid>http://localhost:1313/Rs.git/docs/guide/plotting-spectral-response-curves/</guid>
       <description>&lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p&gt;The objective of this lab is to further your understanding of spectral responses and develop skills in using the Charting functions in Earth Engine (JavaScript).&lt;/p&gt;
 &lt;h3 id=&#34;load-up-a-landsat-8-scene&#34;&gt;Load Up a Landsat-8 Scene&lt;/h3&gt;
@@ -737,9 +737,9 @@ So far, we have only explored two visualization options (true-color and false-co
     
     <item>
       <title>Reference</title>
-      <link>http://localhost:1313/docs/guide/reference/</link>
+      <link>http://localhost:1313/Rs.git/docs/guide/reference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/guide/reference/</guid>
+      <guid>http://localhost:1313/Rs.git/docs/guide/reference/</guid>
       <description>&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;

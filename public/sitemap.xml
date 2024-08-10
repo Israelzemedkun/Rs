@@ -2,255 +2,255 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/docs/guide/getting-started/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/guide/getting-started/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/dbms/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/dbms/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/guide/image-visualisaton/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/guide/image-visualisaton/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/dbms/introduction-to-database-management-systems/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/dbms/introduction-to-database-management-systems/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/guide/project-structure/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/guide/project-structure/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/dbms/data-modeling-and-er-model/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/dbms/data-modeling-and-er-model/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/guide/configuration/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/guide/configuration/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/guide/classification/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/guide/classification/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/dbms/relational-databases/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/dbms/relational-databases/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/dbms/structured-query-language/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/dbms/structured-query-language/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/guide/sar-in-gee/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/guide/sar-in-gee/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/guide/plotting-spectral-response-curves/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/guide/plotting-spectral-response-curves/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/forestry-management/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/forestry-management/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/landsat-8/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/landsat-8/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/preprint/</loc>
+    <loc>http://localhost:1313/Rs.git/project/preprint/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/preprint/</loc>
+    <loc>http://localhost:1313/Rs.git/publication/preprint/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/</loc>
+    <loc>http://localhost:1313/Rs.git/project/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/</loc>
+    <loc>http://localhost:1313/Rs.git/publication/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/remote-sensing/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/remote-sensing/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/spectral-indices/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/spectral-indices/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/teak-tree-plantations/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/teak-tree-plantations/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/time-series-analysis/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/time-series-analysis/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/vegetation-monitoring/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/vegetation-monitoring/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/wavelet-transforms/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/wavelet-transforms/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/data-science/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/data-science/</loc>
     <lastmod>2024-06-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/deep-learning/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/deep-learning/</loc>
     <lastmod>2024-06-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/gnn/</loc>
+    <loc>http://localhost:1313/Rs.git/project/gnn/</loc>
     <lastmod>2024-06-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/gan/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/gan/</loc>
     <lastmod>2024-06-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/image-generation/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/image-generation/</loc>
     <lastmod>2024-06-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/machine-learning/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/machine-learning/</loc>
     <lastmod>2024-06-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/mnist/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/mnist/</loc>
     <lastmod>2024-06-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/neural-networks/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/neural-networks/</loc>
     <lastmod>2024-06-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/pytorch/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/pytorch/</loc>
     <lastmod>2024-06-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://localhost:1313/Rs.git/projects/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/data-visualization/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/data-visualization/</loc>
     <lastmod>2024-04-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/gis/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/gis/</loc>
     <lastmod>2024-04-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/interactive-visualization/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/interactive-visualization/</loc>
     <lastmod>2024-04-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/streamlit-dashboard/</loc>
+    <loc>http://localhost:1313/Rs.git/project/streamlit-dashboard/</loc>
     <lastmod>2024-04-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/streamlit-dashboard/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/streamlit-dashboard/</loc>
     <lastmod>2024-04-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/traffic-analysis/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/traffic-analysis/</loc>
     <lastmod>2024-04-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/traffic-data-analysis/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/traffic-data-analysis/</loc>
     <lastmod>2024-04-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/guide/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/guide/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/gee/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/gee/</loc>
     <lastmod>2023-11-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/javascript/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/javascript/</loc>
     <lastmod>2023-11-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/gee_jpn/</loc>
+    <loc>http://localhost:1313/Rs.git/project/gee_jpn/</loc>
     <lastmod>2023-11-27T22:52:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/drops-of-hope/</loc>
+    <loc>http://localhost:1313/Rs.git/project/drops-of-hope/</loc>
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/national-geographic-society-and-the-nature-conservancy/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/national-geographic-society-and-the-nature-conservancy/</loc>
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/get-started/</loc>
+    <loc>http://localhost:1313/Rs.git/post/get-started/</loc>
     <lastmod>2023-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/academic/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/academic/</loc>
     <lastmod>2023-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>http://localhost:1313/Rs.git/post/</loc>
     <lastmod>2023-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo-blox/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/hugo-blox/</loc>
     <lastmod>2023-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/markdown/</loc>
     <lastmod>2023-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/gee_bais/</loc>
+    <loc>http://localhost:1313/Rs.git/project/gee_bais/</loc>
     <lastmod>2023-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/second-brain/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/second-brain/</loc>
     <lastmod>2023-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/second-brain/</loc>
+    <loc>http://localhost:1313/Rs.git/post/second-brain/</loc>
     <lastmod>2023-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/data-visualization/</loc>
+    <loc>http://localhost:1313/Rs.git/post/data-visualization/</loc>
     <lastmod>2023-10-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/hugo/</loc>
     <lastmod>2023-10-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/experience/</loc>
+    <loc>http://localhost:1313/Rs.git/experience/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/large-language-models/</loc>
+    <loc>http://localhost:1313/Rs.git/tags/large-language-models/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/conference-paper/</loc>
+    <loc>http://localhost:1313/Rs.git/project/conference-paper/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/conference-paper/</loc>
+    <loc>http://localhost:1313/Rs.git/publication/conference-paper/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/Rs.git/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication_types/</loc>
+    <loc>http://localhost:1313/Rs.git/publication_types/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/docs/guide/reference/</loc>
+    <loc>http://localhost:1313/Rs.git/docs/guide/reference/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

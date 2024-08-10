@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Remote Sensing | Academic CV</title>
-    <link>http://localhost:1313/tags/remote-sensing/</link>
-      <atom:link href="http://localhost:1313/tags/remote-sensing/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/Rs.git/tags/remote-sensing/</link>
+      <atom:link href="http://localhost:1313/Rs.git/tags/remote-sensing/index.xml" rel="self" type="application/rss+xml" />
     <description>Remote Sensing</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/Rs.git/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
       <title>Remote Sensing</title>
-      <link>http://localhost:1313/tags/remote-sensing/</link>
+      <link>http://localhost:1313/Rs.git/tags/remote-sensing/</link>
     </image>
     
     <item>
       <title>Mapping Teak Tree Plantations</title>
-      <link>http://localhost:1313/project/preprint/</link>
+      <link>http://localhost:1313/Rs.git/project/preprint/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/preprint/</guid>
+      <guid>http://localhost:1313/Rs.git/project/preprint/</guid>
       <description>&lt;h1 id=&#34;mapping-teak-tree-plantations&#34;&gt;Mapping Teak Tree Plantations&lt;/h1&gt;
 &lt;h3 id=&#34;identifyingmapping-teak-tree-plantations-using-landsat-8-image-collection&#34;&gt;Identifying/Mapping Teak Tree Plantations Using Landsat 8 Image Collection&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Objective&lt;/strong&gt;: The primary goal of this project is to analyze time series vegetation data using Wavelet Transform techniques. By leveraging the power of Landsat 8&amp;rsquo;s satellite imagery, we aim to map Teak Tree Plantations and uncover underlying patterns that can provide insights into the health, distribution, and management of these plantations.&lt;/p&gt;
@@ -203,9 +203,9 @@
     
     <item>
       <title>Mapping Teak Tree Plantations</title>
-      <link>http://localhost:1313/publication/preprint/</link>
+      <link>http://localhost:1313/Rs.git/publication/preprint/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/preprint/</guid>
+      <guid>http://localhost:1313/Rs.git/publication/preprint/</guid>
       <description>&lt;h1 id=&#34;mapping-teak-tree-plantations&#34;&gt;Mapping Teak Tree Plantations&lt;/h1&gt;
 &lt;h3 id=&#34;identifyingmapping-teak-tree-plantations-using-landsat-8-image-collection&#34;&gt;Identifying/Mapping Teak Tree Plantations Using Landsat 8 Image Collection&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Objective&lt;/strong&gt;: The primary goal of this project is to analyze time series vegetation data using Wavelet Transform techniques. By leveraging the power of Landsat 8&amp;rsquo;s satellite imagery, we aim to map Teak Tree Plantations and uncover underlying patterns that can provide insights into the health, distribution, and management of these plantations.&lt;/p&gt;
@@ -371,9 +371,9 @@
     
     <item>
       <title>The Impact of COVID 19 Lockdown on Air Quality</title>
-      <link>http://localhost:1313/project/gee_jpn/</link>
+      <link>http://localhost:1313/Rs.git/project/gee_jpn/</link>
       <pubDate>Mon, 27 Nov 2023 22:52:51 +0530</pubDate>
-      <guid>http://localhost:1313/project/gee_jpn/</guid>
+      <guid>http://localhost:1313/Rs.git/project/gee_jpn/</guid>
       <description>&lt;h1 id=&#34;gis-final-project&#34;&gt;GIS Final Project&lt;/h1&gt;
 &lt;h2 id=&#34;the-impact-of-covid-19-lockdown-on-air-quality&#34;&gt;The impact of COVID-19 lockdown on air quality&lt;/h2&gt;
 &lt;h3 id=&#34;israel-gebre&#34;&gt;Israel Gebre&lt;/h3&gt;
@@ -506,12 +506,12 @@ Finally, the Export.image.toDrive function is used to export the image for the c
 &lt;h3 id=&#34;results-and-discussion&#34;&gt;Results and Discussion&lt;/h3&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
 Spatial distribution of AOD during the PLD and DLD time period in 2017–2020. Thespatial distribution shows that there is a drastic decrease of aerosol loading during DLD compared to PLD period of 2020. This decrease is clearly visible over the north regions, whereas AOD did not substantially decrease over the central–eastern region. Overall aerosol loading shows a decrease compared to the same time period of DLD of 2017–2019. In spite of this, the overallAOD values from 25 March 2020 onwards till May are at its lowest corresponding to the three years AOD average.
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Avg.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/Avg.png&#34;
 alt=&#34;AOD average&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
 The lockdown period allowed for the collection of baseline data on air qualityduring periods of minimal human activity. Combining satellite data with ground data gives us a regional and specific understanding of air quality. If there is a decrease in AOD (aerosol optical depth) decreases, it suggests that air quality may improve if actions are implemented to minimize the use of fossil fuels. Shutting down the economy to improve air quality is not a viable answer, but smaller-scale actions might be conducted on a regular basis.
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/AOD.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/AOD.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
 &lt;p&gt;Bao, R., &amp;amp; Zhang, A. (2020). Does lockdown reduce air pollution? Evidence from 44 cities in Northern China. &lt;em&gt;Science of The Total Environment, 731&lt;/em&gt;, 139052. &lt;a href=&#34;https://doi.org/10.1016/j.scitotenv.2020.139052&#34;&gt;https://doi.org/10.1016/j.scitotenv.2020.139052&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Bezyk, Y., Sówka, I., Górka, M., &amp;amp; Blachowski, J. (2021). GIS-based approach to spatio-temporal interpolation of atmospheric CO2 concentrations in Limited Monitoring Dataset. &lt;em&gt;Atmosphere, 12&lt;/em&gt;(3), 384. &lt;a href=&#34;https://doi.org/10.3390/atmos12030384&#34;&gt;https://doi.org/10.3390/atmos12030384&lt;/a&gt;&lt;/p&gt;
@@ -525,17 +525,17 @@ The lockdown period allowed for the collection of baseline data on air qualitydu
     
     <item>
       <title>Drops of Hope: Ethiopia&#39;s Water Scarcity Challenge</title>
-      <link>http://localhost:1313/project/drops-of-hope/</link>
+      <link>http://localhost:1313/Rs.git/project/drops-of-hope/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/drops-of-hope/</guid>
+      <guid>http://localhost:1313/Rs.git/project/drops-of-hope/</guid>
       <description>&lt;p&gt;This story map takes you on a journey to the Northern Shewa region, specifically Wuchale and Jidda Woreda, to understand the depths of this crisis, its local impact on the lives of women and children, the efforts of stakeholders to find solutions, and the lessons we can learn from their struggles.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Google Earth Engine Based Approach for Irrigation Scheduling</title>
-      <link>http://localhost:1313/project/gee_bais/</link>
+      <link>http://localhost:1313/Rs.git/project/gee_bais/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/gee_bais/</guid>
+      <guid>http://localhost:1313/Rs.git/project/gee_bais/</guid>
       <description>&lt;h1 id=&#34;israel-gebre&#34;&gt;Israel Gebre&lt;/h1&gt;
 &lt;h3 id=&#34;google-earth-engine-based-approach-for-irrigation-scheduling&#34;&gt;Google Earth Engine Based Approach for Irrigation Scheduling&lt;/h3&gt;
 &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
@@ -550,12 +550,12 @@ In addition to satellite imagery and weather data, Google Earth Engine can also 
 &lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
 &lt;p&gt;The objective of the project is to use satellite data to analyze the water stress levels of crops in real-time. The aim is to improve irrigation practices and increase crop production and farmer income. The project will also help irrigation planners to efficiently manage irrigation resources and prevent water waste.
-&lt;img src=&#34;http://localhost:1313/Et_vec.png&#34;
+&lt;img src=&#34;http://localhost:1313/Rs.git/Et_vec.png&#34;
      alt=&#34;Sentinel-2&#34;
      style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
 &lt;p&gt;The data source for the project will be Sentinel-2 satellite data, which will be used to calculate the NDVI and NDWI indices. These indices will be combined to create a new index called the CWSI, which will be used to detect crop water stress conditions.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Et_vec_1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/Et_vec_1.png&#34;
 alt=&#34;Sentinel-2&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The study area for the project will be the Abay Blue Nile Basin and Rift Valley Basin. These areas were selected because they have access to irrigation water and are used for crop production. The project will also make use of a dynamic 10m near-real-time (NRT) Land Use/Land Cover (LULC) dataset, which includes class probabilities and label information for nine classes.&lt;/p&gt;
@@ -625,7 +625,7 @@ To focus on crop water stress conditions, the study was conducted only on croppe
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;results--discussions&#34;&gt;Results &amp;amp; Discussions&lt;/h3&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
 The results of this study demonstrate the effectiveness of using a crop water stress index (CWSI) for irrigation scheduling in the study area. The CWSI was determined by evaluating the water stress conditions of crops and grouping the output into five classes, as well as integrating two vegetation indices (NDVI and NDWI). Real-time analysis was conducted using the Google Earth Engine Code Editor platform, and a CWSI app was developed to assist with the proper selection of times for irrigation.
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Et_vec_2.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/Et_vec_2.png&#34;
 alt=&#34;Sentinel-2&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
