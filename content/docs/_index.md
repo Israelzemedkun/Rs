@@ -14,10 +14,3 @@ Additionally, students will gain hands-on experience with the R programming lang
 
 <p style="text-align: justify;">
 Throughout my academic journey, I have engaged deeply with similar topics, having worked on data science projects in urbanization, climate, and sustainability. My background in computer science and data analysis, combined with my expertise in GIS and remote sensing tools such as ArcGIS, QGIS, and Google Earth Engine, allows me to bring a practical perspective to the theoretical concepts covered in this course. I look forward to guiding you through the intricacies of remote sensing and helping you develop the skills needed to apply these techniques to real-world environmental challenges.
-
-
-## Next
-
-{{< cards >}}
-  {{< card url="getting-started" title="Get Started" icon="document-text" subtitle="Create your docs in just 5 minutes!" >}}
-{{< /cards >}}
