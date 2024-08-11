@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Time Series Analysis | Academic CV</title>
-    <link>http://localhost:1313/Rs.git/tags/time-series-analysis/</link>
-      <atom:link href="http://localhost:1313/Rs.git/tags/time-series-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/time-series-analysis/</link>
+      <atom:link href="http://localhost:1313/tags/time-series-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Time Series Analysis</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/Rs.git/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
       <title>Time Series Analysis</title>
-      <link>http://localhost:1313/Rs.git/tags/time-series-analysis/</link>
+      <link>http://localhost:1313/tags/time-series-analysis/</link>
     </image>
     
     <item>
       <title>Mapping Teak Tree Plantations</title>
-      <link>http://localhost:1313/Rs.git/project/preprint/</link>
+      <link>http://localhost:1313/project/preprint/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/project/preprint/</guid>
+      <guid>http://localhost:1313/project/preprint/</guid>
       <description>&lt;h1 id=&#34;mapping-teak-tree-plantations&#34;&gt;Mapping Teak Tree Plantations&lt;/h1&gt;
 &lt;h3 id=&#34;identifyingmapping-teak-tree-plantations-using-landsat-8-image-collection&#34;&gt;Identifying/Mapping Teak Tree Plantations Using Landsat 8 Image Collection&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Objective&lt;/strong&gt;: The primary goal of this project is to analyze time series vegetation data using Wavelet Transform techniques. By leveraging the power of Landsat 8&amp;rsquo;s satellite imagery, we aim to map Teak Tree Plantations and uncover underlying patterns that can provide insights into the health, distribution, and management of these plantations.&lt;/p&gt;
@@ -203,9 +203,9 @@
     
     <item>
       <title>Mapping Teak Tree Plantations</title>
-      <link>http://localhost:1313/Rs.git/publication/preprint/</link>
+      <link>http://localhost:1313/publication/preprint/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/publication/preprint/</guid>
+      <guid>http://localhost:1313/publication/preprint/</guid>
       <description>&lt;h1 id=&#34;mapping-teak-tree-plantations&#34;&gt;Mapping Teak Tree Plantations&lt;/h1&gt;
 &lt;h3 id=&#34;identifyingmapping-teak-tree-plantations-using-landsat-8-image-collection&#34;&gt;Identifying/Mapping Teak Tree Plantations Using Landsat 8 Image Collection&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Objective&lt;/strong&gt;: The primary goal of this project is to analyze time series vegetation data using Wavelet Transform techniques. By leveraging the power of Landsat 8&amp;rsquo;s satellite imagery, we aim to map Teak Tree Plantations and uncover underlying patterns that can provide insights into the health, distribution, and management of these plantations.&lt;/p&gt;

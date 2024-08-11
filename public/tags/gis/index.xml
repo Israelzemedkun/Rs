@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GIS | Academic CV</title>
-    <link>http://localhost:1313/Rs.git/tags/gis/</link>
-      <atom:link href="http://localhost:1313/Rs.git/tags/gis/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/gis/</link>
+      <atom:link href="http://localhost:1313/tags/gis/index.xml" rel="self" type="application/rss+xml" />
     <description>GIS</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Apr 2024 22:52:51 +0530</lastBuildDate>
     <image>
-      <url>http://localhost:1313/Rs.git/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
       <title>GIS</title>
-      <link>http://localhost:1313/Rs.git/tags/gis/</link>
+      <link>http://localhost:1313/tags/gis/</link>
     </image>
     
     <item>
       <title>Motor Vehicle Collisions in New York City Dashboard Project</title>
-      <link>http://localhost:1313/Rs.git/project/streamlit-dashboard/</link>
+      <link>http://localhost:1313/project/streamlit-dashboard/</link>
       <pubDate>Sat, 27 Apr 2024 22:52:51 +0530</pubDate>
-      <guid>http://localhost:1313/Rs.git/project/streamlit-dashboard/</guid>
+      <guid>http://localhost:1313/project/streamlit-dashboard/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;1-introduction&#34;&gt;1. &lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;
 &lt;h4 id=&#34;background&#34;&gt;Background&lt;/h4&gt;
@@ -110,7 +110,7 @@ The dashboard performs efficiently, offering responsiveness and accurate visuali
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;st&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Where are the most people injured in NYC?&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;injured_people&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;st&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;slider&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Number of persons injured in vehicle collisions&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;st&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;query&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;injured_persons &amp;gt;= @injured_people&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)[[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;latitude&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;longitude&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dropna&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;how&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;any&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/No person injury.png&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/No person injury.png&#34;
 alt=&#34;AOD average&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -144,7 +144,7 @@ style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/No-collision_24.png&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/No-collision_24.png&#34;
 alt=&#34;AOD average&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -156,7 +156,7 @@ style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;chart_data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DataFrame&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;minute&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;crashes&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;hist&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;})&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fig&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;chart_data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;minute&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;crashes&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;hover_data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;minute&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;crashes&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;400&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;st&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;write&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fig&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/Break_down_by_minute.png&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Break_down_by_minute.png&#34;
 alt=&#34;AOD average&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -173,7 +173,7 @@ style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;elif&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;select&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Motorists&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;st&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;write&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;original_data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;query&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;injured_motorists &amp;gt;= 1&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)[[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;on_street_name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;injured_motorists&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sort_values&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;by&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;injured_motorists&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ascending&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dropna&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;how&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;any&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)[:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/Top dangerous streets.png&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Top dangerous streets.png&#34;
 alt=&#34;AOD average&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;6-discussion&#34;&gt;6. &lt;strong&gt;Discussion&lt;/strong&gt;&lt;/h3&gt;
@@ -211,17 +211,17 @@ Include any supplementary material relevant to your research, such as raw data f
     
     <item>
       <title>Drops of Hope: Ethiopia&#39;s Water Scarcity Challenge</title>
-      <link>http://localhost:1313/Rs.git/project/drops-of-hope/</link>
+      <link>http://localhost:1313/project/drops-of-hope/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/project/drops-of-hope/</guid>
+      <guid>http://localhost:1313/project/drops-of-hope/</guid>
       <description>&lt;p&gt;This story map takes you on a journey to the Northern Shewa region, specifically Wuchale and Jidda Woreda, to understand the depths of this crisis, its local impact on the lives of women and children, the efforts of stakeholders to find solutions, and the lessons we can learn from their struggles.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Google Earth Engine Based Approach for Irrigation Scheduling</title>
-      <link>http://localhost:1313/Rs.git/project/gee_bais/</link>
+      <link>http://localhost:1313/project/gee_bais/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/project/gee_bais/</guid>
+      <guid>http://localhost:1313/project/gee_bais/</guid>
       <description>&lt;h1 id=&#34;israel-gebre&#34;&gt;Israel Gebre&lt;/h1&gt;
 &lt;h3 id=&#34;google-earth-engine-based-approach-for-irrigation-scheduling&#34;&gt;Google Earth Engine Based Approach for Irrigation Scheduling&lt;/h3&gt;
 &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
@@ -236,12 +236,12 @@ In addition to satellite imagery and weather data, Google Earth Engine can also 
 &lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
 &lt;p&gt;The objective of the project is to use satellite data to analyze the water stress levels of crops in real-time. The aim is to improve irrigation practices and increase crop production and farmer income. The project will also help irrigation planners to efficiently manage irrigation resources and prevent water waste.
-&lt;img src=&#34;http://localhost:1313/Rs.git/Et_vec.png&#34;
+&lt;img src=&#34;http://localhost:1313/Et_vec.png&#34;
      alt=&#34;Sentinel-2&#34;
      style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
 &lt;p&gt;The data source for the project will be Sentinel-2 satellite data, which will be used to calculate the NDVI and NDWI indices. These indices will be combined to create a new index called the CWSI, which will be used to detect crop water stress conditions.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/Et_vec_1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Et_vec_1.png&#34;
 alt=&#34;Sentinel-2&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The study area for the project will be the Abay Blue Nile Basin and Rift Valley Basin. These areas were selected because they have access to irrigation water and are used for crop production. The project will also make use of a dynamic 10m near-real-time (NRT) Land Use/Land Cover (LULC) dataset, which includes class probabilities and label information for nine classes.&lt;/p&gt;
@@ -311,7 +311,7 @@ To focus on crop water stress conditions, the study was conducted only on croppe
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;results--discussions&#34;&gt;Results &amp;amp; Discussions&lt;/h3&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
 The results of this study demonstrate the effectiveness of using a crop water stress index (CWSI) for irrigation scheduling in the study area. The CWSI was determined by evaluating the water stress conditions of crops and grouping the output into five classes, as well as integrating two vegetation indices (NDVI and NDWI). Real-time analysis was conducted using the Google Earth Engine Code Editor platform, and a CWSI app was developed to assist with the proper selection of times for irrigation.
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/Et_vec_2.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Et_vec_2.png&#34;
 alt=&#34;Sentinel-2&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;

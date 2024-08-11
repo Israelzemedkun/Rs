@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Israel | Academic CV</title>
-    <link>http://localhost:1313/Rs.git/</link>
-      <atom:link href="http://localhost:1313/Rs.git/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Israel</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/Rs.git/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
       <title>Israel</title>
-      <link>http://localhost:1313/Rs.git/</link>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
       <title>Introduction to Remote Sensing</title>
-      <link>http://localhost:1313/Rs.git/docs/guide/getting-started/</link>
+      <link>http://localhost:1313/docs/guide/getting-started/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/docs/guide/getting-started/</guid>
+      <guid>http://localhost:1313/docs/guide/getting-started/</guid>
       <description>&lt;h3 id=&#34;introduction-to-remote-sensing-of-the-environment&#34;&gt;Introduction to Remote Sensing of the Environment&lt;/h3&gt;
-&lt;img src=&#34;http://localhost:1313/Rs.git/skysat.webp&#34; alt=&#34;AOD average&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/skysat.webp&#34; alt=&#34;AOD average&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;h2 id=&#34;getting-started-with-google-earth-engine&#34;&gt;Getting Started with Google Earth Engine&lt;/h2&gt;
 &lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
 &lt;p&gt;Completion of this lab exercise requires the use of the Google Chrome browser and a Google Earth Engine account. If you have not yet signed up, please do so now in a new tab: &lt;a href=&#34;https://earthengine.google.com/signup/&#34;&gt;Earth Engine account registration&lt;/a&gt;. Once registered, you can access the Earth Engine environment here: &lt;a href=&#34;https://code.earthengine.google.com&#34;&gt;https://code.earthengine.google.com&lt;/a&gt;&lt;/p&gt;
@@ -26,7 +26,7 @@
 &lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p&gt;The objective of this lab is to introduce you to the Google Earth Engine processing environment. By the end of this exercise, you will be able to search, find, and visualize a broad range of remotely sensed datasets. We will start with single-band imagery - elevation data from the SRTM mission.&lt;/p&gt;
 &lt;h2 id=&#34;1-the-earth-engine-code-editor&#34;&gt;1. The Earth Engine Code Editor&lt;/h2&gt;
-&lt;img src=&#34;http://localhost:1313/Rs.git/image-1.png&#34; alt=&#34;Google Earth Engine environment&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/image-1.png&#34; alt=&#34;Google Earth Engine environment&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 1.&lt;/strong&gt; The Google Earth Engine environment&lt;/p&gt;
 &lt;h3 id=&#34;editor-panel&#34;&gt;Editor Panel&lt;/h3&gt;
 &lt;ul&gt;
@@ -65,34 +65,34 @@
 &lt;ul&gt;
 &lt;li&gt;Navigate to Darwin and zoom in using the mouse wheel.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://localhost:1313/Rs.git/image-2.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/image-2.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;ul&gt;
 &lt;li&gt;Clear the script workspace by selecting &amp;ldquo;Clear script&amp;rdquo; from the Reset button dropdown menu.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://localhost:1313/Rs.git/image-3.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/image-3.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 3.&lt;/strong&gt; Clear script&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Search for “elevation” and click on the SRTM Digital Elevation Data 30m result to show the dataset description.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://localhost:1313/Rs.git/image-4.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/image-4.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 4.&lt;/strong&gt; Search for elevation data&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;View the information on the dataset, and then click on Import, which moves the variable to the Imports section at the top of your script.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://localhost:1313/Rs.git/image-5.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/image-5.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 5.&lt;/strong&gt; View elevation datasource and import&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Rename the default variable name &amp;ldquo;image&amp;rdquo; to &amp;ldquo;srtm&amp;rdquo;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://localhost:1313/Rs.git/image-6.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/image-6.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 6.&lt;/strong&gt; Rename image&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Add the image object to the console by copying the script below into the code editor, and click &amp;ldquo;run&amp;rdquo;:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-7.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-7.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 7.&lt;/strong&gt; Print SRTM&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/Rs.git/image-8.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/image-8.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Browse through the information that was printed to the console. Open the “bands” section to show the one band named “elevation”. Note that all this same information is automatically available for all variables in the Imports section.&lt;/p&gt;
@@ -104,20 +104,20 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;adjusting-visualization-parameters&#34;&gt;Adjusting Visualization Parameters&lt;/h3&gt;
 &lt;p&gt;The displayed map will look pretty flat grey because the default visualization parameters map the full 16-bit range of the data onto the black–white range, but the elevation range is much smaller than that in any particular location. We’ll fix it in a moment.&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/Rs.git/image-9.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/image-9.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 8.&lt;/strong&gt; Map SRTM&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Select the Inspector tab. Then click on a few points on the map to get a feel for the elevation range in this area.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://localhost:1313/Rs.git/image-10.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/image-10.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 9.&lt;/strong&gt; Inspect SRTM&lt;/p&gt;
 &lt;p&gt;Now you can set some more appropriate visualization parameters by adjusting the code as follows (units are in meters above sea level):&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-11.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-11.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 10.&lt;/strong&gt; Visualize SRTM&lt;/p&gt;
 &lt;p&gt;You will now be able to see variation in elevation range with low values in black and highest points in white. Layers added to the map will have default names like &amp;ldquo;Layer 1&amp;rdquo;, &amp;ldquo;Layer 2&amp;rdquo;, etc. To improve readability, we can give each layer a human-readable name, by adding a title with the syntax in the following code. Don&amp;rsquo;t forget to click run.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;},&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Elevation above sea level&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-12.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-12.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 11.&lt;/strong&gt; Rename title&lt;/p&gt;
 &lt;h3 id=&#34;commenting-and-saving-your-scripts&#34;&gt;Commenting and Saving Your Scripts&lt;/h3&gt;
 &lt;p&gt;Now, the last step for today is to save your code. However, before doing that, it is good practice to add some comment lines to your code reminding you of what you did and why. We add these with two forward slashes &lt;code&gt;//&lt;/code&gt;:&lt;/p&gt;
@@ -132,25 +132,25 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Add the data again, with value ranges, and a useful title for the Layer tab
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;},&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Elevation above sea level&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-13.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-13.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 12.&lt;/strong&gt; Comment script&lt;/p&gt;
 &lt;p&gt;The next step is then to save your script by clicking &amp;ldquo;Save&amp;rdquo;. It will be saved in your private repository and will be accessible the next time you log in to Earth Engine.&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/Rs.git/image-14.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/image-14.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 13.&lt;/strong&gt; Save script&lt;/p&gt;
 &lt;p&gt;If you would like to experiment with different color combinations, you can play with color palettes as per the example below:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;palette&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;blue&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;yellow&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;red&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]},&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Elevation above sea level&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-15.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-15.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 14.&lt;/strong&gt; Color scale elevation&lt;/p&gt;
 &lt;h3 id=&#34;hillshading-and-slope&#34;&gt;Hillshading and Slope&lt;/h3&gt;
 &lt;p&gt;For better visualization, we can create a hillshade view of the elevation data. Remember you can use the Layer transparency options to create draped images for colorized hillshades.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;hillshade&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ee&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Terrain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;hillshade&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;hillshade&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;150&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;},&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Hillshade&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-16.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-16.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 15.&lt;/strong&gt; Hillshade view&lt;/p&gt;
 &lt;p&gt;Slope works in a similar way:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;slope&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ee&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Terrain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;slope&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;srtm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;slope&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;},&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Slope&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/image-17.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/image-17.png&#34; alt=&#34;Zoom to Darwin&#34; style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Figure 16.&lt;/strong&gt; Slope map&lt;/p&gt;
 &lt;p&gt;Thank you.&lt;/p&gt;
 </description>
@@ -158,9 +158,9 @@
     
     <item>
       <title>Image Visualisations</title>
-      <link>http://localhost:1313/Rs.git/docs/guide/image-visualisaton/</link>
+      <link>http://localhost:1313/docs/guide/image-visualisaton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/docs/guide/image-visualisaton/</guid>
+      <guid>http://localhost:1313/docs/guide/image-visualisaton/</guid>
       <description>&lt;h2 id=&#34;understanding-band-combinations&#34;&gt;Understanding Band Combinations&lt;/h2&gt;
 &lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -298,9 +298,9 @@ So far, we have only explored two visualization options (true-color and false-co
     
     <item>
       <title>Introduction to Database Management Systems</title>
-      <link>http://localhost:1313/Rs.git/docs/dbms/introduction-to-database-management-systems/</link>
+      <link>http://localhost:1313/docs/dbms/introduction-to-database-management-systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/docs/dbms/introduction-to-database-management-systems/</guid>
+      <guid>http://localhost:1313/docs/dbms/introduction-to-database-management-systems/</guid>
       <description>&lt;h3 id=&#34;course-introduction-databases-and-dbms&#34;&gt;&lt;strong&gt;Course Introduction: Databases and DBMS&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Welcome to the course on Databases and Database Management Systems (DBMS). In this introductory module, we&amp;rsquo;ll explore the foundational concepts that are crucial for understanding how databases work and why they are essential in today’s data-driven world.&lt;/p&gt;
 &lt;h4 id=&#34;what-is-a-database&#34;&gt;&lt;strong&gt;What is a Database?&lt;/strong&gt;&lt;/h4&gt;
@@ -329,9 +329,9 @@ So far, we have only explored two visualization options (true-color and false-co
     
     <item>
       <title>Spectra to Indices, and Finding the Right Image</title>
-      <link>http://localhost:1313/Rs.git/docs/guide/project-structure/</link>
+      <link>http://localhost:1313/docs/guide/project-structure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/docs/guide/project-structure/</guid>
+      <guid>http://localhost:1313/docs/guide/project-structure/</guid>
       <description>&lt;p&gt;\image\Spectra to Indices&lt;/p&gt;
 &lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p&gt;The objective of this lab is to gain an understanding of a range of spectral indices and develop the skills for calculating any index you require. Before getting to that, we will build upon last week&amp;rsquo;s lab and learn how to find an image for any geographic location of interest.&lt;/p&gt;
@@ -425,9 +425,9 @@ So far, we have only explored two visualization options (true-color and false-co
     
     <item>
       <title>Data Modeling and ER Model</title>
-      <link>http://localhost:1313/Rs.git/docs/dbms/data-modeling-and-er-model/</link>
+      <link>http://localhost:1313/docs/dbms/data-modeling-and-er-model/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/docs/dbms/data-modeling-and-er-model/</guid>
+      <guid>http://localhost:1313/docs/dbms/data-modeling-and-er-model/</guid>
       <description>&lt;p&gt;Entity-Relationship (ER) Model:
 Entities, Attributes, and Relationships.
 ER Diagrams: Symbols and Conventions.
@@ -438,9 +438,9 @@ Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
     
     <item>
       <title>Image Classification</title>
-      <link>http://localhost:1313/Rs.git/docs/guide/configuration/</link>
+      <link>http://localhost:1313/docs/guide/configuration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/docs/guide/configuration/</guid>
+      <guid>http://localhost:1313/docs/guide/configuration/</guid>
       <description>&lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p&gt;The objective of this lab is to gain an understanding of the image classification process and explore ways of turning remotely sensed imagery into landcover maps.&lt;/p&gt;
 &lt;h3 id=&#34;loading-up-the-image&#34;&gt;Loading up the Image&lt;/h3&gt;
@@ -517,9 +517,9 @@ Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
     
     <item>
       <title>Accuracy Assessment</title>
-      <link>http://localhost:1313/Rs.git/docs/guide/classification/</link>
+      <link>http://localhost:1313/docs/guide/classification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/docs/guide/classification/</guid>
+      <guid>http://localhost:1313/docs/guide/classification/</guid>
       <description>&lt;h2 id=&#34;classification-validation&#34;&gt;Classification Validation&lt;/h2&gt;
 &lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p&gt;The objective of this lab is to learn how to evaluate image classification results and conduct an accuracy assessment using independent validation data.&lt;/p&gt;
@@ -597,9 +597,9 @@ Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
     
     <item>
       <title>Relational Databases</title>
-      <link>http://localhost:1313/Rs.git/docs/dbms/relational-databases/</link>
+      <link>http://localhost:1313/docs/dbms/relational-databases/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/docs/dbms/relational-databases/</guid>
+      <guid>http://localhost:1313/docs/dbms/relational-databases/</guid>
       <description>&lt;h3 id=&#34;relational-model&#34;&gt;Relational Model:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Concepts of Tables, Tuples, and Schemas.&lt;/li&gt;
@@ -615,9 +615,9 @@ Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
     
     <item>
       <title>SQL: Structured Query Language</title>
-      <link>http://localhost:1313/Rs.git/docs/dbms/structured-query-language/</link>
+      <link>http://localhost:1313/docs/dbms/structured-query-language/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/docs/dbms/structured-query-language/</guid>
+      <guid>http://localhost:1313/docs/dbms/structured-query-language/</guid>
       <description>&lt;h3 id=&#34;introduction-to-sql&#34;&gt;Introduction to SQL:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic Queries: SELECT, INSERT, UPDATE, DELETE.&lt;/li&gt;
@@ -633,9 +633,9 @@ Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
     
     <item>
       <title>SAR Data in Google Earth Engine</title>
-      <link>http://localhost:1313/Rs.git/docs/guide/sar-in-gee/</link>
+      <link>http://localhost:1313/docs/guide/sar-in-gee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/docs/guide/sar-in-gee/</guid>
+      <guid>http://localhost:1313/docs/guide/sar-in-gee/</guid>
       <description>&lt;h1 id=&#34;working-with-sar-data-in-google-earth-engine&#34;&gt;Working with SAR Data in Google Earth Engine&lt;/h1&gt;
 &lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p&gt;The objective of this lab is to deepen your understanding of Synthetic Aperture Radar (SAR) data and learn how to visualize different composites in Google Earth Engine.&lt;/p&gt;
@@ -746,9 +746,9 @@ Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
     
     <item>
       <title>Plotting Spectral Response Curves</title>
-      <link>http://localhost:1313/Rs.git/docs/guide/plotting-spectral-response-curves/</link>
+      <link>http://localhost:1313/docs/guide/plotting-spectral-response-curves/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/docs/guide/plotting-spectral-response-curves/</guid>
+      <guid>http://localhost:1313/docs/guide/plotting-spectral-response-curves/</guid>
       <description>&lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p&gt;The objective of this lab is to further your understanding of spectral responses and develop skills in using the Charting functions in Earth Engine (JavaScript).&lt;/p&gt;
 &lt;h3 id=&#34;load-up-a-landsat-8-scene&#34;&gt;Load Up a Landsat-8 Scene&lt;/h3&gt;
@@ -817,9 +817,9 @@ Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
     
     <item>
       <title>Mapping Teak Tree Plantations</title>
-      <link>http://localhost:1313/Rs.git/project/preprint/</link>
+      <link>http://localhost:1313/project/preprint/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/project/preprint/</guid>
+      <guid>http://localhost:1313/project/preprint/</guid>
       <description>&lt;h1 id=&#34;mapping-teak-tree-plantations&#34;&gt;Mapping Teak Tree Plantations&lt;/h1&gt;
 &lt;h3 id=&#34;identifyingmapping-teak-tree-plantations-using-landsat-8-image-collection&#34;&gt;Identifying/Mapping Teak Tree Plantations Using Landsat 8 Image Collection&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Objective&lt;/strong&gt;: The primary goal of this project is to analyze time series vegetation data using Wavelet Transform techniques. By leveraging the power of Landsat 8&amp;rsquo;s satellite imagery, we aim to map Teak Tree Plantations and uncover underlying patterns that can provide insights into the health, distribution, and management of these plantations.&lt;/p&gt;
@@ -1006,9 +1006,9 @@ Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
     
     <item>
       <title>Mapping Teak Tree Plantations</title>
-      <link>http://localhost:1313/Rs.git/publication/preprint/</link>
+      <link>http://localhost:1313/publication/preprint/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/publication/preprint/</guid>
+      <guid>http://localhost:1313/publication/preprint/</guid>
       <description>&lt;h1 id=&#34;mapping-teak-tree-plantations&#34;&gt;Mapping Teak Tree Plantations&lt;/h1&gt;
 &lt;h3 id=&#34;identifyingmapping-teak-tree-plantations-using-landsat-8-image-collection&#34;&gt;Identifying/Mapping Teak Tree Plantations Using Landsat 8 Image Collection&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Objective&lt;/strong&gt;: The primary goal of this project is to analyze time series vegetation data using Wavelet Transform techniques. By leveraging the power of Landsat 8&amp;rsquo;s satellite imagery, we aim to map Teak Tree Plantations and uncover underlying patterns that can provide insights into the health, distribution, and management of these plantations.&lt;/p&gt;
@@ -1174,9 +1174,9 @@ Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
     
     <item>
       <title>Deep Learning with PyTorch : Generative Adversarial Network</title>
-      <link>http://localhost:1313/Rs.git/project/gnn/</link>
+      <link>http://localhost:1313/project/gnn/</link>
       <pubDate>Thu, 27 Jun 2024 22:52:51 +0530</pubDate>
-      <guid>http://localhost:1313/Rs.git/project/gnn/</guid>
+      <guid>http://localhost:1313/project/gnn/</guid>
       <description>&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
 &lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -1622,17 +1622,17 @@ Key code snippets are provided throughout the document. For the complete code, p
     
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/Rs.git/projects/</link>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/projects/</guid>
+      <guid>http://localhost:1313/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Motor Vehicle Collisions in New York City Dashboard Project</title>
-      <link>http://localhost:1313/Rs.git/project/streamlit-dashboard/</link>
+      <link>http://localhost:1313/project/streamlit-dashboard/</link>
       <pubDate>Sat, 27 Apr 2024 22:52:51 +0530</pubDate>
-      <guid>http://localhost:1313/Rs.git/project/streamlit-dashboard/</guid>
+      <guid>http://localhost:1313/project/streamlit-dashboard/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;1-introduction&#34;&gt;1. &lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;
 &lt;h4 id=&#34;background&#34;&gt;Background&lt;/h4&gt;
@@ -1726,7 +1726,7 @@ The dashboard performs efficiently, offering responsiveness and accurate visuali
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;st&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Where are the most people injured in NYC?&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;injured_people&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;st&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;slider&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Number of persons injured in vehicle collisions&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;st&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;query&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;injured_persons &amp;gt;= @injured_people&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)[[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;latitude&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;longitude&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dropna&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;how&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;any&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/No person injury.png&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/No person injury.png&#34;
 alt=&#34;AOD average&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1760,7 +1760,7 @@ style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/No-collision_24.png&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/No-collision_24.png&#34;
 alt=&#34;AOD average&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1772,7 +1772,7 @@ style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;chart_data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DataFrame&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;minute&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;crashes&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;hist&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;})&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fig&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;chart_data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;minute&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;crashes&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;hover_data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;minute&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;crashes&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;400&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;st&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;write&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fig&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/Break_down_by_minute.png&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Break_down_by_minute.png&#34;
 alt=&#34;AOD average&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1789,7 +1789,7 @@ style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;elif&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;select&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Motorists&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;st&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;write&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;original_data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;query&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;injured_motorists &amp;gt;= 1&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)[[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;on_street_name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;injured_motorists&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sort_values&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;by&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;injured_motorists&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ascending&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dropna&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;how&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;any&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)[:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/Top dangerous streets.png&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Top dangerous streets.png&#34;
 alt=&#34;AOD average&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;6-discussion&#34;&gt;6. &lt;strong&gt;Discussion&lt;/strong&gt;&lt;/h3&gt;
@@ -1827,9 +1827,9 @@ Include any supplementary material relevant to your research, such as raw data f
     
     <item>
       <title>The Impact of COVID 19 Lockdown on Air Quality</title>
-      <link>http://localhost:1313/Rs.git/project/gee_jpn/</link>
+      <link>http://localhost:1313/project/gee_jpn/</link>
       <pubDate>Mon, 27 Nov 2023 22:52:51 +0530</pubDate>
-      <guid>http://localhost:1313/Rs.git/project/gee_jpn/</guid>
+      <guid>http://localhost:1313/project/gee_jpn/</guid>
       <description>&lt;h1 id=&#34;gis-final-project&#34;&gt;GIS Final Project&lt;/h1&gt;
 &lt;h2 id=&#34;the-impact-of-covid-19-lockdown-on-air-quality&#34;&gt;The impact of COVID-19 lockdown on air quality&lt;/h2&gt;
 &lt;h3 id=&#34;israel-gebre&#34;&gt;Israel Gebre&lt;/h3&gt;
@@ -1962,12 +1962,12 @@ Finally, the Export.image.toDrive function is used to export the image for the c
 &lt;h3 id=&#34;results-and-discussion&#34;&gt;Results and Discussion&lt;/h3&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
 Spatial distribution of AOD during the PLD and DLD time period in 2017–2020. Thespatial distribution shows that there is a drastic decrease of aerosol loading during DLD compared to PLD period of 2020. This decrease is clearly visible over the north regions, whereas AOD did not substantially decrease over the central–eastern region. Overall aerosol loading shows a decrease compared to the same time period of DLD of 2017–2019. In spite of this, the overallAOD values from 25 March 2020 onwards till May are at its lowest corresponding to the three years AOD average.
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/Avg.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Avg.png&#34;
 alt=&#34;AOD average&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
 The lockdown period allowed for the collection of baseline data on air qualityduring periods of minimal human activity. Combining satellite data with ground data gives us a regional and specific understanding of air quality. If there is a decrease in AOD (aerosol optical depth) decreases, it suggests that air quality may improve if actions are implemented to minimize the use of fossil fuels. Shutting down the economy to improve air quality is not a viable answer, but smaller-scale actions might be conducted on a regular basis.
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/AOD.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/AOD.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
 &lt;p&gt;Bao, R., &amp;amp; Zhang, A. (2020). Does lockdown reduce air pollution? Evidence from 44 cities in Northern China. &lt;em&gt;Science of The Total Environment, 731&lt;/em&gt;, 139052. &lt;a href=&#34;https://doi.org/10.1016/j.scitotenv.2020.139052&#34;&gt;https://doi.org/10.1016/j.scitotenv.2020.139052&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Bezyk, Y., Sówka, I., Górka, M., &amp;amp; Blachowski, J. (2021). GIS-based approach to spatio-temporal interpolation of atmospheric CO2 concentrations in Limited Monitoring Dataset. &lt;em&gt;Atmosphere, 12&lt;/em&gt;(3), 384. &lt;a href=&#34;https://doi.org/10.3390/atmos12030384&#34;&gt;https://doi.org/10.3390/atmos12030384&lt;/a&gt;&lt;/p&gt;
@@ -1981,17 +1981,17 @@ The lockdown period allowed for the collection of baseline data on air qualitydu
     
     <item>
       <title>Drops of Hope: Ethiopia&#39;s Water Scarcity Challenge</title>
-      <link>http://localhost:1313/Rs.git/project/drops-of-hope/</link>
+      <link>http://localhost:1313/project/drops-of-hope/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/project/drops-of-hope/</guid>
+      <guid>http://localhost:1313/project/drops-of-hope/</guid>
       <description>&lt;p&gt;This story map takes you on a journey to the Northern Shewa region, specifically Wuchale and Jidda Woreda, to understand the depths of this crisis, its local impact on the lives of women and children, the efforts of stakeholders to find solutions, and the lessons we can learn from their struggles.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>http://localhost:1313/Rs.git/post/get-started/</link>
+      <link>http://localhost:1313/post/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/post/get-started/</guid>
+      <guid>http://localhost:1313/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -2075,9 +2075,9 @@ The lockdown period allowed for the collection of baseline data on air qualitydu
     
     <item>
       <title>Google Earth Engine Based Approach for Irrigation Scheduling</title>
-      <link>http://localhost:1313/Rs.git/project/gee_bais/</link>
+      <link>http://localhost:1313/project/gee_bais/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/project/gee_bais/</guid>
+      <guid>http://localhost:1313/project/gee_bais/</guid>
       <description>&lt;h1 id=&#34;israel-gebre&#34;&gt;Israel Gebre&lt;/h1&gt;
 &lt;h3 id=&#34;google-earth-engine-based-approach-for-irrigation-scheduling&#34;&gt;Google Earth Engine Based Approach for Irrigation Scheduling&lt;/h3&gt;
 &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
@@ -2092,12 +2092,12 @@ In addition to satellite imagery and weather data, Google Earth Engine can also 
 &lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
 &lt;p&gt;The objective of the project is to use satellite data to analyze the water stress levels of crops in real-time. The aim is to improve irrigation practices and increase crop production and farmer income. The project will also help irrigation planners to efficiently manage irrigation resources and prevent water waste.
-&lt;img src=&#34;http://localhost:1313/Rs.git/Et_vec.png&#34;
+&lt;img src=&#34;http://localhost:1313/Et_vec.png&#34;
      alt=&#34;Sentinel-2&#34;
      style=&#34;float: left; margin-right: 10px;&#34; /&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
 &lt;p&gt;The data source for the project will be Sentinel-2 satellite data, which will be used to calculate the NDVI and NDWI indices. These indices will be combined to create a new index called the CWSI, which will be used to detect crop water stress conditions.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/Et_vec_1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Et_vec_1.png&#34;
 alt=&#34;Sentinel-2&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The study area for the project will be the Abay Blue Nile Basin and Rift Valley Basin. These areas were selected because they have access to irrigation water and are used for crop production. The project will also make use of a dynamic 10m near-real-time (NRT) Land Use/Land Cover (LULC) dataset, which includes class probabilities and label information for nine classes.&lt;/p&gt;
@@ -2167,7 +2167,7 @@ To focus on crop water stress conditions, the study was conducted only on croppe
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;results--discussions&#34;&gt;Results &amp;amp; Discussions&lt;/h3&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
 The results of this study demonstrate the effectiveness of using a crop water stress index (CWSI) for irrigation scheduling in the study area. The CWSI was determined by evaluating the water stress conditions of crops and grouping the output into five classes, as well as integrating two vegetation indices (NDVI and NDWI). Real-time analysis was conducted using the Google Earth Engine Code Editor platform, and a CWSI app was developed to assist with the proper selection of times for irrigation.
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Rs.git/Et_vec_2.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Et_vec_2.png&#34;
 alt=&#34;Sentinel-2&#34;
 style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -2203,9 +2203,9 @@ The use of a Crop Water Stress Index (CWSI) for irrigation scheduling in the stu
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>http://localhost:1313/Rs.git/post/second-brain/</link>
+      <link>http://localhost:1313/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/post/second-brain/</guid>
+      <guid>http://localhost:1313/post/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -2307,9 +2307,9 @@ The use of a Crop Water Stress Index (CWSI) for irrigation scheduling in the stu
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>http://localhost:1313/Rs.git/post/data-visualization/</link>
+      <link>http://localhost:1313/post/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/post/data-visualization/</guid>
+      <guid>http://localhost:1313/post/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
@@ -2320,7 +2320,7 @@ The use of a Crop Water Stress Index (CWSI) for irrigation scheduling in the stu
 
 
 
-&lt;div id=&#34;chart-279514368&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-957832146&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -2338,7 +2338,7 @@ The use of a Crop Water Stress Index (CWSI) for irrigation scheduling in the stu
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-279514368&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-957832146&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -2513,17 +2513,17 @@ Crash --&amp;gt; [*]
     
     <item>
       <title>Experience</title>
-      <link>http://localhost:1313/Rs.git/experience/</link>
+      <link>http://localhost:1313/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/experience/</guid>
+      <guid>http://localhost:1313/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Low-Cost Automated Basketball Score Tracking System</title>
-      <link>http://localhost:1313/Rs.git/project/conference-paper/</link>
+      <link>http://localhost:1313/project/conference-paper/</link>
       <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/project/conference-paper/</guid>
+      <guid>http://localhost:1313/project/conference-paper/</guid>
       <description>&lt;h1 id=&#34;low-cost-automated-basketball-score-tracking-system&#34;&gt;Low-Cost Automated Basketball Score Tracking System&lt;/h1&gt;
 &lt;h3 id=&#34;israel-gebre-and-abel-kidane-habte&#34;&gt;Israel Gebre and Abel Kidane Habte&lt;/h3&gt;
 &lt;h4 id=&#34;monday-9-may-2022&#34;&gt;Monday, 9 May 2022&lt;/h4&gt;
@@ -2606,9 +2606,9 @@ Crash --&amp;gt; [*]
     
     <item>
       <title>Low-Cost Automated Basketball Score Tracking System | Fun Side project</title>
-      <link>http://localhost:1313/Rs.git/publication/conference-paper/</link>
+      <link>http://localhost:1313/publication/conference-paper/</link>
       <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/publication/conference-paper/</guid>
+      <guid>http://localhost:1313/publication/conference-paper/</guid>
       <description>&lt;h1 id=&#34;low-cost-automated-basketball-score-tracking-system&#34;&gt;Low-Cost Automated Basketball Score Tracking System&lt;/h1&gt;
 &lt;h3 id=&#34;israel-gebre-and-abel-kidane-habte&#34;&gt;Israel Gebre and Abel Kidane Habte&lt;/h3&gt;
 &lt;h4 id=&#34;monday-9-may-2022&#34;&gt;Monday, 9 May 2022&lt;/h4&gt;
@@ -2691,9 +2691,9 @@ Crash --&amp;gt; [*]
     
     <item>
       <title>Reference</title>
-      <link>http://localhost:1313/Rs.git/docs/guide/reference/</link>
+      <link>http://localhost:1313/docs/guide/reference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Rs.git/docs/guide/reference/</guid>
+      <guid>http://localhost:1313/docs/guide/reference/</guid>
       <description>&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
