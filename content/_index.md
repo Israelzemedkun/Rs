@@ -35,10 +35,13 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-              My research centers on leveraging data science, remote sensing, and machine learning to tackle environmental and policy challenges. As a Remote Sensing Research Assistant at Ashoka University, I developed machine learning models for vegetation and air pollution detection using satellite data, refining methodologies to enhance model accuracy.
+              My research is focused on the critical intersection of environmental sustainability, data science, remote sensing, and machine learning. Hailing from Ethiopia, a nation renowned for its rich biodiversity yet confronting significant environmental challenges, I am deeply committed to advancing sustainable solutions that address these pressing issues.
 
-              During my externship with the National Geographic Society and The Nature Conservancy, I conducted landscape and gap analyses for freshwater conservation projects. I am passionate about exploring the intersection of technology and environmental sustainability and  I’m always open to new collaborations—so don’t be afraid to drop me a line. Let’s see what we can uncover together! 😃
-      
+              In my role as a Remote Sensing Research Assistant at Ashoka University, I developed sophisticated machine learning models for detecting vegetation health and air pollution using satellite data. This work involved refining analytical methodologies to enhance the precision and accuracy of these models, contributing to more effective environmental monitoring.
+
+              During my externship with the National Geographic Society and The Nature Conservancy, I conducted comprehensive landscape and gap analyses to support freshwater conservation initiatives. These experiences have solidified my dedication to leveraging technology in the pursuit of environmental sustainability.
+
+              I am passionate about exploring how cutting-edge technological tools can drive sustainable environmental practices and am continually seeking opportunities for collaboration. I invite like-minded professionals to connect with me to explore innovative solutions to the environmental challenges we face today.      
     design:
       columns: '1'
   - block: collection
@@ -108,6 +111,8 @@ sections:
         - Data Science
         - Machine Learning
         - Remote Sensing and GIS
+        - Geospatial Data Science
+        - Environmental Sustainability
       #button:
         #text: Get Started
         #url: https://hugoblox.com/templates/

@@ -432,7 +432,7 @@ So far, we have only explored two visualization options (true-color and false-co
 Entities, Attributes, and Relationships.
 ER Diagrams: Symbols and Conventions.
 Conceptual Database Design:
-Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
+Mapping ER Models to Relational Models.&lt;/p&gt;
 </description>
     </item>
     
@@ -608,7 +608,7 @@ Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
 &lt;h3 id=&#34;relational-algebra&#34;&gt;Relational Algebra:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic Operations: Selection, Projection, Union, etc.&lt;/li&gt;
-&lt;li&gt;Queries and Expressions in Relational Algebra【6†source】.&lt;/li&gt;
+&lt;li&gt;Queries and Expressions in Relational Algebra.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -2320,7 +2320,7 @@ The use of a Crop Water Stress Index (CWSI) for irrigation scheduling in the stu
 
 
 
-&lt;div id=&#34;chart-957832146&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-728695341&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -2338,7 +2338,7 @@ The use of a Crop Water Stress Index (CWSI) for irrigation scheduling in the stu
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-957832146&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-728695341&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

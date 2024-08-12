@@ -9,4 +9,4 @@ Entity-Relationship (ER) Model:
 Entities, Attributes, and Relationships.
 ER Diagrams: Symbols and Conventions.
 Conceptual Database Design:
-Mapping ER Models to Relational Models【6†source】.
+Mapping ER Models to Relational Models.

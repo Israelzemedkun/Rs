@@ -45,6 +45,9 @@ interests:
   - Data Science
   - Machine Learning
   - Remote Sensing and GIS
+  - Geospatial Data Science
+  - Environmental Sustainability
+
 
 education:
   - area: Postgraduate Diploma in Advanced Studies and Research
@@ -149,13 +152,13 @@ skills:
       - name: MySQL
         description: ''
         percent: 70
-        icon: database
+        icon: circle-stack
   - name: Data Science Skills
     items:
       - name: Machine Learning
         description: ''
         percent: 85
-        icon: brain
+        icon: 
       - name: Data Analysis
         description: ''
         percent: 90
@@ -171,7 +174,7 @@ skills:
       - name: Data Visualisation
         description: ''
         percent: 75
-        icon: chart-line
+        icon: chart-bar
       - name: Geospatial Analysis
         description: ''
         percent: 85
@@ -189,7 +192,7 @@ skills:
       - name: ESRI
         description: ''
         percent: 75
-        icon: globe
+        icon: map
       - name: QGIS
         description: ''
         percent: 80
@@ -197,11 +200,11 @@ skills:
       - name: EPANET
         description: ''
         percent: 70
-        icon: water
+        icon: map
       - name: Google Earth Pro
         description: ''
         percent: 85
-        icon: globe
+        icon: map
       - name: SNAP
         description: ''
         percent: 70
@@ -213,7 +216,7 @@ skills:
       - name: GEE
         description: ''
         percent: 90
-        icon: globe
+        icon: map
 
 languages:
   - name: English
@@ -230,31 +233,6 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
   - title: 'BEYOND THE VISIBLE - Hyperspectral Remote Sensing'
     url: "https://eo-college.org/"
     certificate_url: /certificate/Hyper-EDU.pdf
@@ -310,14 +288,16 @@ awards:
   </style>
 </head>
 <body>
-  <p class="custom-paragraph">
 
 <p style="text-align: justify;">
-I am a data science professional with a solid foundation in computer science, specializing in the application of advanced data analysis, remote sensing, and machine learning techniques to solve real-world challenges. I hold a B.Sc. in Computer Science and a Postgraduate Diploma in Advanced Studies and Research from Ashoka University, both achieved through full scholarships.
+I am a data science professional with a robust foundation in computer science, specializing in the application of advanced data analysis, remote sensing, and machine learning techniques to address pressing real-world challenges. I hold a B.Sc. in Computer Science and a Postgraduate Diploma in Advanced Studies and Research from Ashoka University, both earned through full scholarships in recognition of academic excellence.
+
 
 <p style="text-align: justify;">
-My professional experience spans diverse roles, including market research in the gaming industry at Mobalytics, a teaching fellowship in Environmental Studies at Ashoka University, and various research positions. I am proficient in programming, data analysis, and GIS tools, with a particular interest in geospatial data science. I am currently seeking opportunities to further advance my career and contribute to impactful projects in this field.
+My professional experience encompasses a diverse array of roles, including conducting market research in the gaming industry at Mobalytics, serving as a Teaching Fellow in Environmental Studies at Ashoka University, and holding various research positions focused on data-driven solutions. My technical expertise spans programming, data analysis, and GIS tools, with a particular emphasis on geospatial data science.
 
+<p style="text-align: justify;">
+Driven by a deep-seated passion for environmental sustainability, I am particularly interested in the intersection of technology and environmental stewardship. I am committed to leveraging my skills to contribute to impactful projects that promote sustainable development and address environmental challenges. I am currently seeking opportunities to advance my career in this field and collaborate on initiatives that make a meaningful difference.
   </p>
 </body>
 </html>

@@ -1,6 +1,7 @@
 ---
 linkTitle: Teaching
 title: Introduction to Remote Sensing of the Environment
+weight: 1
 ---
 <img src="/rapideye.webp" alt="rapideye-intro" style="float: left; margin-right: 10px;" />
 <p style="text-align: justify;">

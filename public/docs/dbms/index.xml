@@ -52,7 +52,7 @@
 Entities, Attributes, and Relationships.
 ER Diagrams: Symbols and Conventions.
 Conceptual Database Design:
-Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
+Mapping ER Models to Relational Models.&lt;/p&gt;
 </description>
     </item>
     
@@ -69,7 +69,7 @@ Mapping ER Models to Relational Models【6†source】.&lt;/p&gt;
 &lt;h3 id=&#34;relational-algebra&#34;&gt;Relational Algebra:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic Operations: Selection, Projection, Union, etc.&lt;/li&gt;
-&lt;li&gt;Queries and Expressions in Relational Algebra【6†source】.&lt;/li&gt;
+&lt;li&gt;Queries and Expressions in Relational Algebra.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

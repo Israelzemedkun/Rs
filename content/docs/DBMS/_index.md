@@ -1,8 +1,8 @@
 ---
 title: DBMS 
-weight: 1
+weight: 2
 sidebar:
-  open: true
+  open: false
 ---
 
 ### **Introduction to Database Management Systems (DBMS)**
@@ -23,10 +23,10 @@ This course provides a comprehensive introduction to the principles of database 
 1. **Introduction to Databases and DBMS**
    - **Basic Definitions**:
      - What is a Database?
-     - Understanding Data and Mini-worlds【6†source】.
+     - Understanding Data and Mini-worlds.
    - **DBMS Overview**:
      - Definition of DBMS.
-     - Components and Architecture of a DBMS【5†source】【6†source】.
+     - Components and Architecture of a DBMS.
      - Types of Database Systems.
 
 2. **Data Modeling and ER Model**
@@ -34,7 +34,7 @@ This course provides a comprehensive introduction to the principles of database 
      - Entities, Attributes, and Relationships.
      - ER Diagrams: Symbols and Conventions.
    - **Conceptual Database Design**:
-     - Mapping ER Models to Relational Models【6†source】.
+     - Mapping ER Models to Relational Models.
 
 3. **Relational Databases**
    - **Relational Model**:
@@ -55,7 +55,7 @@ This course provides a comprehensive introduction to the principles of database 
 5. **Database Design: Normalization**
    - **Normalization Concepts**:
      - Functional Dependencies.
-     - Normal Forms (1NF, 2NF, 3NF, BCNF)【6†source】.
+     - Normal Forms (1NF, 2NF, 3NF, BCNF).
    - **Decomposition**:
      - Lossless Decomposition and Dependency Preservation.
 
@@ -65,7 +65,7 @@ This course provides a comprehensive introduction to the principles of database 
      - Data Access Methods: Sequential and Random Access.
    - **Indexing Techniques**:
      - Primary and Secondary Indexes.
-     - Hashing and B-Trees【6†source】.
+     - Hashing and B-Trees.
 
 7. **Emerging Trends in Database Technology**
    - **Web Data Management**:
@@ -73,12 +73,12 @@ This course provides a comprehensive introduction to the principles of database 
      - Web Mining and Data Integration.
    - **Big Data and NoSQL Databases**:
      - Overview of Big Data Technologies.
-     - NoSQL Database Types and Applications【5†source】.
+     - NoSQL Database Types and Applications.
 
 8. **Case Studies and Applications**
    - **Real-world Applications**:
      - Databases in Transportation, Retail, Healthcare, and Finance.
-     - Case Studies: IBM Smart Cities, Retail Personalization, Healthcare IoT【5†source】.
+     - Case Studies: IBM Smart Cities, Retail Personalization, Healthcare IoT.
    - **Future Directions in Database Technology**.
 
 #### **Grading and Assessment**
@@ -86,10 +86,10 @@ This course provides a comprehensive introduction to the principles of database 
 - **Quizzes & Assignments**: 15%
 - **Class Attendance & Participation**: 20%
 - **Laboratory Exercises**: 25%
-- **End-term Exam**: 20%【5†source】.
+- **End-term Exam**: 20%.
 
 #### **Recommended Textbook**
-- **Fundamentals of Database Systems** by Elmasri and Navathe【6†source】.
+- **Fundamentals of Database Systems** by Elmasri and Navathe.
 
 #### **Additional Resources**
 - Slides and additional reading materials will be provided on the course website.

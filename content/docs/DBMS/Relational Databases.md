@@ -10,4 +10,4 @@ sidebar:
 - Integrity Constraints in the Relational Model.
 ### Relational Algebra:
 - Basic Operations: Selection, Projection, Union, etc.
-- Queries and Expressions in Relational Algebra【6†source】.
+- Queries and Expressions in Relational Algebra.
